@@ -18,6 +18,13 @@ function MyApp({ Component, pageProps }) {
         <DefaultSeo
           title="TikTok Downloader"
           description="Download TikTok videos easily."
+          canonical="https://your-website-url.com"
+          openGraph={{
+          url: "https://your-website-url.com",
+          title: "TikTok Video Downloader",
+          description: "Download high-quality videos from TikTok.",
+          site_name: "TikTok Downloader",
+        }}
           // Add more SEO settings as needed
         />
         <div className="sidebar">
