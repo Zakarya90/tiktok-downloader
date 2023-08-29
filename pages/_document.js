@@ -5,12 +5,28 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
-          {/* Add custom meta tags */}
+          <meta charSet="utf-8" />
+          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
           <meta name="description" content="TikTok Video Downloader" />
+          <link rel="stylesheet" href="/styles/global.css" />
           <link rel="icon" href="/favicon.ico" />
+          <title>TikTok Downloader</title>
         </Head>
         <body>
+          <header>
+            <h1>TikTok Video Downloader</h1>
+            <nav>
+              <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+                {/* Add more navigation links */}
+              </ul>
+            </nav>
+          </header>
           <Main />
+          <footer>
+            <p>&copy; {new Date().getFullYear()} TikTok Downloader</p>
+          </footer>
           <NextScript />
         </body>
       </Html>
@@ -19,4 +35,3 @@ class MyDocument extends Document {
 }
 
 export default MyDocument;
-
