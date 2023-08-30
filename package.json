@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "build:css": "postcss styles/global.css -o public/styles.css"
   },
   "author": "Your Name",
   "license": "MIT",
