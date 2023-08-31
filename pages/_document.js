@@ -6,11 +6,10 @@ class MyDocument extends Document {
       <Html lang="en">
         <Head>
           <meta charSet="utf-8" />
-          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
           <meta name="description" content="TikTok Video Downloader" />
           <link rel="stylesheet" href="/styles/global.css" />
           <link rel="icon" href="/favicon.ico" />
-          <title>TikTok Downloader</title>
+          {/* Remove title from here */}
         </Head>
         <body>
           <header>
